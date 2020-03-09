@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  number = 5 ;
+  // tasks =[];
 
   done(){
     console.log("done youcef");
