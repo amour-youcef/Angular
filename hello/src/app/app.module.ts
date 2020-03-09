@@ -8,6 +8,9 @@ import { MyCompComponent } from './my-comp/my-comp.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { AddTaskComponent } from './component/add-task/add-task.component';
+import { TaskComponent } from './component/task/task.component';
 
 
 @NgModule({
@@ -17,6 +20,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HomeComponent,
     ProfileComponent,
     NotFoundComponent,
+    LifecycleComponent,
+    AddTaskComponent,
+    TaskComponent,
   
   ],
   imports: [
