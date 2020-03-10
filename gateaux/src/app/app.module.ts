@@ -4,12 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MaterialModule} from './material/material.module';
+import { AccueilComponent } from './components/accueil/accueil.component';
+import { ProduitsComponent } from './components/produits/produits.component';
+import { TrouverComponent } from './components/trouver/trouver.component';
+import { CommanderComponent } from './components/commander/commander.component';
+import { LoginComponent } from './components/login/login.component';
+import { PhotosComponent } from './components/photos/photos.component';
 
 
 
@@ -17,6 +24,12 @@ import {MaterialModule} from './material/material.module';
   declarations: [
     AppComponent,
     NavbarComponent,
+    AccueilComponent,
+    ProduitsComponent,
+    TrouverComponent,
+    CommanderComponent,
+    LoginComponent,
+    PhotosComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +37,8 @@ import {MaterialModule} from './material/material.module';
     BrowserAnimationsModule,
     MaterialModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
