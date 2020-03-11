@@ -7,11 +7,12 @@ import { LoginComponent } from './components/login/login.component';
 import { ProduitsComponent } from './components/produits/produits.component';
 import { TrouverComponent } from './components/trouver/trouver.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { Home1Component } from './components/home1/home1.component';
 
 
 const routes: Routes = [
   {path: 'accueil', component : AccueilComponent },
-  {path: 'home', component : HomeComponent},
+  {path: 'home', component : Home1Component},
   {path: 'photos', component : PhotosComponent},
   {path: 'commander', component : CommanderComponent  },
   {path: 'login', component : LoginComponent },
