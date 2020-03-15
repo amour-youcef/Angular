@@ -10,8 +10,6 @@ export class PostsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
@@ -36,4 +34,8 @@ export class PostsComponent implements OnInit {
     },
     nav: true
   }
+
+
+  ngOnInit(): void {
+  };
 }
